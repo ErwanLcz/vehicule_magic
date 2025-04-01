@@ -1,0 +1,11 @@
+vehicles:
+  title: "List of Magical Vehicles"
+  add: "Add a Magical Vehicle"
+  type: "Type"
+  capacity: "Capacity"
+  price: "Price"
+  features: "Enchantments"
+  details: "Details"
+  book: "Book"
+  edit: "Edit"
+  delete: "Delete"

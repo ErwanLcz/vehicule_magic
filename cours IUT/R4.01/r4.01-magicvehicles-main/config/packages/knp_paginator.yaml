@@ -1,0 +1,21 @@
+knp_paginator:
+  template:
+    pagination: '@KnpPaginator/Pagination/bootstrap_v5_pagination.html.twig'
+
+  page_range: 5  # Affiche le nombre de page a coté du choix de la page
+  # Options par défaut pour les paramètres GET dans l'URL
+  default_options:
+    page_name: page  # Nom du paramètre pour la pagination, ex: /vehicles?page=2
+    distinct: true  # Évite les doublons dans les résultats (utile pour les requêtes avec GROUP BY)
+
+    # Gestion des pages demandées hors des limites
+    page_out_of_range: ignore  # Options : "ignore" (ne rien faire), "fix" (aller à la dernière page), "throwException" (erreur 404)
+
+    # Nombre d'éléments affichés par défaut par page
+    default_limit: 8  # Affiche 10 éléments par page si aucun nombre n'est défini dans le contrôleur
+
+  # Supprimer le paramètre page=1 dans l'URL pour alléger les URLs
+  remove_first_page_param: false  # true = ne pas afficher ?page=1
+
+  # Convertir une page invalide en erreur 404
+  convert_exception: false  # Si un utilisateur tente d'accéder à une page inexistante, génère une exception

@@ -1,0 +1,11 @@
+vehicles:
+  title: "Liste des Véhicules Magiques"
+  add: "Ajouter un véhicule magique"
+  type: "Type"
+  capacity: "Capacité"
+  price: "Tarif"
+  features: "Enchantements"
+  details: "Détails"
+  book: "Réserver"
+  edit: "Modifier"
+  delete: "Supprimer"
